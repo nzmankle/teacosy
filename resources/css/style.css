@@ -1,0 +1,148 @@
+/* UNIVERSAL */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: Black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/*div {
+  border: 1px solid White;
+}*/
+
+/* HEADER */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid SeaShell;
+  background-color: Black;
+  margin-top: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+a {
+  color: SeaShell;
+}
+
+/* CONTENT */
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  flex-direction: column;
+}
+
+/* MISSION */
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background-color: Black;
+}
+
+.text h2, h4 {
+  margin: 10px;
+}
+
+#mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  margin-top: 69px;
+}
+
+/* FEATURED */
+
+#featured {
+  margin-top: 50px;
+  width: 1000px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.picture img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px
+}
+
+/* LOCATION */
+
+#location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+}
+
+#location h2 {
+  margin: 75px auto auto auto;
+  text-align: center;
+}
+
+.places {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place {
+  display: inline-block;
+  text-align: center;
+  background-color: Black;
+  opacity: 1;
+  margin: 15px 20px 0px 20px;
+  width: 300px;
+}
+
+.place span, h3{
+  display: block;
+  margin: 30px 0px;
+}
+
+/* FOOTER */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+footer h5 {
+  margin-left: 20px;
+}
